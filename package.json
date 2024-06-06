@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@robot-inventor/regex-syntax": "^2.0.0",
+    "@robot-inventor/shell-session-syntax": "^1.0.13",
+    "astro": "^4.9.3",
+    "astro-expressive-code": "^0.35.3",
+    "typescript": "^5.4.5"
+  }
+}
